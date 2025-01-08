@@ -1,88 +1,18 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercice 2</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .table-container {
-            margin: 20px 0;
-        }
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        table, th, td {
-            border: 1px solid black;
-        }
-        th, td {
-            text-align: center;
-            padding: 5px;
-        }
-        .list-title {
-            color: red;
-            font-weight: bold;
-        }
-        ul, ol {
-            margin-left: 20px;
-        }
-    </style>
-</head>
-<body>
-
-    <h2>Exercice 2: Composez une page ressemblant à l'image suivante</h2>
-
-    <p>Voici la première partie :</p>
-    <div class="table-container">
-        <table>
-            <tr>
-                <td>un tableau</td>
-                <td>à 6</td>
-                <td>cases</td>
-            </tr>
-        </table>
-    </div>
-
-    <p><em>Voici la deuxième partie</em></p>
-    <p class="list-title">Une liste</p>
-    <ol>
-        <li>premier point
-            <ul>
-                <li>rubrique 1</li>
-                <li>rubrique 2</li>
-            </ul>
-        </li>
-        <li>2e point</li>
-        <li>3e point
-            <ul>
-                <li>rubrique 1</li>
-                <li>rubrique 2</li>
-            </ul>
-        </li>
-    </ol>
-
-    <p><em>Voici la troisième partie :</em></p>
-    <div class="table-container">
-        <table>
-            <tr>
-                <td colspan="2">un autre tableau</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td colspan="2"></td>
-            </tr>
-        </table>
-    </div>
-
-</body>
-</html>
+<h1>Tutoriel HTML et CSS</h1>
+<form method="post" action="form.php">
+  <div class="champ">
+    <label for="pseudo">Entrez un pseudonyme : </label>
+    <input type="text" id="pseudo" name="pseudo">
+  </div>
+  <div class="champ">
+    <label for="pass">Entrez un mot de passe :</label>
+    <input type="password" id="pass" name="pass">
+  </div>
+  <div class="champ">
+    <label for="mail">Entrez un mail :</label>
+    <input type="email" id="mail" name="mail">
+  </div>
+  <div class="champ">
+    <input type="submit" value="Envoyer">
+   </div>
+</form>
