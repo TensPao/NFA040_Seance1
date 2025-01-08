@@ -57,8 +57,6 @@
                  <label for="pc">Une tablette (Pad)</label>
 </div>
 <br>
-<div class="champ">
-<label for="Votre profession">Votre profession : </label>
 </div>
 <div class="champ">
                 <label for="profession">Votre profession :</label>
@@ -68,6 +66,7 @@
 <br>
 <div class="champ">
     <input type="submit" value="S'inscrire">
+ <option value="Chomeur">Chomeur</option>
    </div>
 
 </form>
