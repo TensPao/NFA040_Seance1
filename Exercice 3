@@ -1,0 +1,47 @@
+
+<h1>Un formulaire avec plein de choses !</h1>
+<form method="post" action="form.php">
+  <div class="champ">
+    <label for="pseudo">Votre pseudo : </label>
+    <input type="text" id="pseudo" name="pseudo">
+  </div>
+  <div class="champ">
+    <label for="pass">Votre mot de passe :</label>
+    <input type="password" id="pass" name="pass">
+  </div>
+  <div class="champ">
+    <label for="pass">Ressaisir votre mot de passe :</label>
+    <input type="password" id="pass" name="pass">
+  </div>
+  <div class="champ">
+    <input type="submit" value="Envoyer">
+   </div>
+<div class="champ">
+<label for="OS prefere">OS prefere : </label>
+                <input type="radio" id="w" name="os" value="Windows XP">
+                <label for="w">Windows XP</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="Windows VISTA">
+                <label for="w">Windows VISTA</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="MacOS X">
+                <label for="w">MacOS X</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="Linux">
+                <label for="w">Linux</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="Autre">
+                <label for="w">Autre</label>
+</div>
+<div class="champ">
+<label for="Vous possedez">Vous possedez : </label>
+              <input type="checkbox" id="pc" name="pc" value="Un ordinateur perso">
+              <label for="pc">Un ordinateur perso</label>
+              <label for="pc">Un portable</label>
+</div>
+
+</form>
