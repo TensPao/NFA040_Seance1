@@ -1,4 +1,4 @@
-<h1>Tutoriel HTML et CSS</h1>
+<h1>Un formulaire avec plein de choses !</h1>
 <form method="post" action="form.php">
   <div class="champ">
     <label for="pseudo">Votre pseudo : </label>
