@@ -24,5 +24,17 @@
                 <input type="radio" id="w" name="os" value="Windows VISTA">
                 <label for="w">Windows VISTA</label>
 </div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="MacOS X">
+                <label for="w">MacOS X</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="Linux">
+                <label for="w">Linux</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="Autre">
+                <label for="w">Autre</label>
+</div>
 
 </form>
