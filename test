@@ -34,6 +34,7 @@
                 <input type="radio" id="w" name="os" value="Autre">
                 <label for="w">Autre</label>
 </div>
+<br>
 <div class="champ">
 <label for="Vous possedez">Vous possedez : </label>
               <input type="checkbox" id="pc" name="pc" value="Un ordinateur perso">
@@ -55,12 +56,12 @@
                 <input type="checkbox" id="pc" name="pc" value="Une tablette (Pad)">
                  <label for="pc">Une tablette (Pad)</label>
 </div>
+<br>
 <div class="champ">
 <label for="Votre profession">Votre profession : </label>
 </div>
 
-
-
+<br>
 <div class="champ">
     <input type="submit" value="S'inscrire">
    </div>
