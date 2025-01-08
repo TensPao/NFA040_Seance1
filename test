@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .table-container {
+            margin: 20px 0;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            text-align: center;
+            padding: 5px;
+        }
+        .list-title {
+            color: red;
+            font-weight: bold;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Exercice 2: Composez une page ressemblant à l'image suivante</h2>
+
+    <p>Voici la première partie :</p>
+    <div class="table-container">
+        <table>
+            <tr>
+                <td>un tableau</td>
+                <td>à 6</td>
+                <td>cases</td>
+            </tr>
+        </table>
+    </div>
+
+    <p><em>Voici la deuxième partie</em></p>
+    <p class="list-title">Une liste</p>
+    <ol>
+        <li>premier point
+            <ul>
+                <li>rubrique 1</li>
+                <li>rubrique 2</li>
+            </ul>
+        </li>
+        <li>2e point</li>
+        <li>3e point
+            <ul>
+                <li>rubrique 1</li>
+                <li>rubrique 2</li>
+            </ul>
+        </li>
+    </ol>
+
+    <p><em>Voici la troisième partie :</em></p>
+    <div class="table-container">
+        <table>
+            <tr>
+                <td colspan="2">un autre tableau</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
