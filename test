@@ -12,9 +12,6 @@
     <label for="pass">Ressaisir votre mot de passe :</label>
     <input type="password" id="pass" name="pass">
   </div>
-  <div class="champ">
-    <input type="submit" value="Envoyer">
-   </div>
 <div class="champ">
 <label for="OS prefere">OS prefere : </label>
                 <input type="radio" id="w" name="os" value="Windows XP">
@@ -60,5 +57,11 @@
 <div class="champ">
 <label for="Votre profession">Votre profession : </label>
 </div>
+
+
+
+<div class="champ">
+    <input type="submit" value="S'inscrire">
+   </div>
 
 </form>
