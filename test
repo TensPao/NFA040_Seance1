@@ -47,7 +47,7 @@
 </div>
 <div class="champ">
                 <input type="checkbox" id="pc" name="pc" value="Un Netbook">
-                 <label for="pc">Un Netbook/label>
+                 <label for="pc">Un Netbook</label>
 </div>
 <div class="champ">
                 <input type="checkbox" id="pc" name="pc" value="Un portable">
