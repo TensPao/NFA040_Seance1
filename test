@@ -19,4 +19,10 @@
 <label for="OS prefere">OS prefere : </label>
                 <input type="radio" id="w" name="os" value="Windows XP">
                 <label for="w">Windows XP</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="Windows VISTA">
+                <label for="w">Windows VISTA</label>
+</div>
+
 </form>
