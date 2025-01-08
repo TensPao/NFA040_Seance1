@@ -41,5 +41,21 @@
               <input type="checkbox" id="pc" name="pc" value="Un ordinateur perso">
               <label for="pc">Un ordinateur perso</label>
 </div>
+<div class="champ">
+                <input type="checkbox" id="pc" name="pc" value="Un portable">
+                 <label for="pc">Un portable</label>
+</div>
+<div class="champ">
+                <input type="checkbox" id="pc" name="pc" value="Un Netbook">
+                 <label for="pc">Un Netbook/label>
+</div>
+<div class="champ">
+                <input type="checkbox" id="pc" name="pc" value="Un portable">
+                 <label for="pc">Un portable</label>
+</div>
+<div class="champ">
+                <input type="checkbox" id="pc" name="pc" value="Une tablette (Pad)">
+                 <label for="pc">Une tablette (Pad)</label>
+</div>
 
 </form>
