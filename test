@@ -15,4 +15,7 @@
   <div class="champ">
     <input type="submit" value="Envoyer">
    </div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="Windows XP">
+                <label for="w">Windows XP</label>
 </form>
