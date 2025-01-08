@@ -1,103 +1,72 @@
+<h1>Un formulaire avec plein de choses !</h1>
+<form method="post" action="form.php">
+  <div class="champ">
+    <label for="pseudo">Votre pseudo : </label>
+    <input type="text" id="pseudo" name="pseudo">
+  </div>
+  <div class="champ">
+    <label for="pass">Votre mot de passe :</label>
+    <input type="password" id="pass" name="pass">
+  </div>
+  <div class="champ">
+    <label for="pass">Ressaisir votre mot de passe :</label>
+    <input type="password" id="pass" name="pass">
+  </div>
+<br>
+<div class="champ">
+<label for="OS prefere">OS prefere : </label>
+                <input type="radio" id="w" name="os" value="Windows XP">
+                <label for="w">Windows XP</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="Windows VISTA">
+                <label for="w">Windows VISTA</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="MacOS X">
+                <label for="w">MacOS X</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="Linux">
+                <label for="w">Linux</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="Autre">
+                <label for="w">Autre</label>
+</div>
+<br>
+<div class="champ">
+<label for="Vous possedez">Vous possedez : </label>
+              <input type="checkbox" id="pc" name="pc" value="Un ordinateur perso">
+              <label for="pc">Un ordinateur perso</label>
+</div>
+<div class="champ">
+                <input type="checkbox" id="pc" name="pc" value="Un portable">
+                 <label for="pc">Un portable</label>
+</div>
+<div class="champ">
+                <input type="checkbox" id="pc" name="pc" value="Un Netbook">
+                 <label for="pc">Un Netbook</label>
+</div>
+<div class="champ">
+                <input type="checkbox" id="pc" name="pc" value="Un portable">
+                 <label for="pc">Un portable</label>
+</div>
+<div class="champ">
+                <input type="checkbox" id="pc" name="pc" value="Une tablette (Pad)">
+                 <label for="pc">Une tablette (Pad)</label>
+</div>
+<br>
+</div>
+<div class="champ">
+                <label for="profession">Votre profession :</label>
+                <select id="pro" name="pro">
+</div>
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire d'inscription</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #f0f0f0;
-        }
-        form {
-            background-color: white;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        label {
-            display: inline-block;
-            width: 200px;
-            text-align: right;
-            margin-right: 10px;
-        }
-        input[type="text"],
-        input[type="password"] {
-            width: 200px;
-            padding: 5px;
-        }
-        input[type="submit"] {
-            margin-left: 210px;
-            padding: 5px 15px;
-        }
-    </style>
-</head>
-<body>
-    <form action="#" method="post">
-        <div class="form-group">
-            <label>Votre pseudo :</label>
-            <input type="text" name="pseudo" required>
-        </div>
+<br>
+<div class="champ">
+    <input type="submit" value="S'inscrire">
+ <option value="Chomeur">Chomeur</option>
+   </div>
 
-        <div class="form-group">
-            <label>Votre mot de passe :</label>
-            <input type="password" name="password" required>
-        </div>
-
-        <div class="form-group">
-            <label>Ressaisir votre mot de passe :</label>
-            <input type="password" name="password_confirm" required>
-        </div>
-
-        <div class="form-group">
-            <label>OS préféré :</label>
-            <div style="display: inline-block;">
-                <input type="radio" name="os" value="windows_xp" id="xp">
-                <label for="xp" style="width: auto;">Windows XP</label><br>
-                <input type="radio" name="os" value="windows_vista" id="vista">
-                <label for="vista" style="width: auto;">Windows Vista</label><br>
-                <input type="radio" name="os" value="macos" id="macos">
-                <label for="macos" style="width: auto;">MacOS X</label><br>
-                <input type="radio" name="os" value="linux" id="linux">
-                <label for="linux" style="width: auto;">Linux</label><br>
-                <input type="radio" name="os" value="autre" id="autre">
-                <label for="autre" style="width: auto;">Autre</label>
-            </div>
-        </div>
-
-        <div class="form-group">
-            <label>Vous possédez :</label>
-            <div style="display: inline-block;">
-                <input type="checkbox" name="device[]" value="desktop" id="desktop">
-                <label for="desktop" style="width: auto;">Un ordinateur de bureau</label><br>
-                <input type="checkbox" name="device[]" value="laptop" id="laptop">
-                <label for="laptop" style="width: auto;">Un portable</label><br>
-                <input type="checkbox" name="device[]" value="netbook" id="netbook">
-                <label for="netbook" style="width: auto;">Un netbook</label><br>
-                <input type="checkbox" name="device[]" value="tablet" id="tablet">
-                <label for="tablet" style="width: auto;">Une tablette (iPad)</label>
-            </div>
-        </div>
-
-        <div class="form-group">
-            <label>Votre profession :</label>
-            <select name="profession">
-                <option value="chomeur">Chômeur</option>
-                <option value="etudiant">Étudiant</option>
-                <option value="fonctionnaire">Fonctionnaire</option>
-                <option value="prive">Privé</option>
-                <option value="retraite">Retraité</option>
-            </select>
-        </div>
-
-        <input type="submit" value="S'inscrire !">
-    </form>
-</body>
-</html>
+</form>
