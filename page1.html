@@ -4,12 +4,11 @@
 <h3> Titre de niveau 3 </h3>
 <h2> Titre de niveau 2 </h2>
 <h1> Titre de niveau 1 </h1>
-
 <body>
   Texte en <b>gras</b>, en <i>italique</i> et <u>souligne</u>
   <br>
   <br>
-  Ecrivez moi a <a href="mailto:.m.antonio@cfacampusmontsouris.fr"> m.antonio@cfacampusmontsouris.fr </a>
+  Ecrivez moi a <a href="mailto:dwaynevallade97293@gmail.com"> dwaynevallade97293@gmail.com </a>
   <br>
   <br>
   Lien vers <a href="actualite.html"> l'actualite</a>
@@ -37,33 +36,25 @@
   </ol>  
 </body>
 
-
-
-
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercice 2</title>
+ <table border="1"  color='#FFFFFF'>
+  <tbody>
+    <tr>
+      <th scope="row">Un tableau</th>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td>A</td>
+      <td>6 CASES</td>
+    </tr>
+  </tbody>
+</table> 
+  </body>
 </head>
 <body>
-    <h2>Voici la première partie :</h2>
 
-    <table border="2" cellspacing="0" cellpadding="5" style="width: 100%;">
-       <tr>
-        <td>un tableau</td>
-         <td> </td> 
-         <td> </td> 
-       </tr>
-      <tr> 
-       <td> </td> 
-        <td>à 6</td>
-            <td>cases</td>
-      </tr>
-    </table>
-
-    <h2 style="font-style: italic;">Voici la deuxième partie</h2>
+    <h2 style="font-style: italic;">Voici la deuxieme partie</h2>
 
     <p style="color: red;">Une liste</p>
 
@@ -83,21 +74,96 @@
         </li>
     </ol>
 
-    <h2>Voici la troisième partie :</h2>
+    <h2>Voici la troisieme partie :</h2>
 
     <table border="1" cellspacing="0" cellpadding="5" style="width: 100%;">
         <tr>
             <td rowspan="2">un autre tableau</td>
-            <td> </td>
+            <td>
+                <div style="height: 30px;"></div>
+                <div style="height: 30px; border-top: 1px solid black;"></div>
+                <div style="height: 30px; border-top: 1px solid black;"></div>
+            </td>
             <td></td>
-            <td> </td>
-        </tr>
-        <tr>
-          <td></td>
-          <tr></tr>
-          <tr></tr>
-          <tr></tr>
+            <td>
+                <div style="display: flex;">
+                    <div style="flex: 1; border-right: 1px solid black;"></div>
+                    <div style="flex: 1;"></div>
+                </div>
+            </td>
         </tr>
     </table>
+  <h1>Un formulaire avec plein de choses !</h1>
+<form method="post" action="form.php">
+  <div class="champ">
+    <label for="pseudo">Votre pseudo : </label>
+    <input type="text" id="pseudo" name="pseudo">
+  </div>
+  <div class="champ">
+    <label for="pass">Votre mot de passe :</label>
+    <input type="password" id="pass" name="pass">
+  </div>
+  <div class="champ">
+    <label for="pass">Ressaisir votre mot de passe :</label>
+    <input type="password" id="pass" name="pass">
+  </div>
+<br>
+<div class="champ">
+<label for="OS prefere">OS prefere : </label>
+                <input type="radio" id="w" name="os" value="Windows XP">
+                <label for="w">Windows XP</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="Windows VISTA">
+                <label for="w">Windows VISTA</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="MacOS X">
+                <label for="w">MacOS X</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="Linux">
+                <label for="w">Linux</label>
+</div>
+<div class="champ">
+                <input type="radio" id="w" name="os" value="Autre">
+                <label for="w">Autre</label>
+</div>
+<br>
+<div class="champ">
+<label for="Vous possedez">Vous possedez : </label>
+              <input type="checkbox" id="pc" name="pc" value="Un ordinateur perso">
+              <label for="pc">Un ordinateur perso</label>
+</div>
+<div class="champ">
+                <input type="checkbox" id="pc" name="pc" value="Un portable">
+                 <label for="pc">Un portable</label>
+</div>
+<div class="champ">
+                <input type="checkbox" id="pc" name="pc" value="Un Netbook">
+                 <label for="pc">Un Netbook</label>
+</div>
+<div class="champ">
+                <input type="checkbox" id="pc" name="pc" value="Un portable">
+                 <label for="pc">Un portable</label>
+</div>
+<div class="champ">
+                <input type="checkbox" id="pc" name="pc" value="Une tablette (Pad)">
+                 <label for="pc">Une tablette (Pad)</label>
+</div>
+<br>
+</div>
+<div class="champ">
+                <label for="profession">Votre profession :</label>
+                <select id="pro" name="pro">
+</div>
+
+<br>
+<div class="champ">
+    <input type="submit" value="S'inscrire">
+ <option value="Chomeur">Chomeur</option>
+   </div>
+
+</form>
 </body>
-</html> 
+</html>
